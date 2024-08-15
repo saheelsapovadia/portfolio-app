@@ -8,14 +8,15 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous" />
   <link rel="stylesheet" href="/assets/styles/main.css" />
-  <title>Colorfolio</title>
+  <title>My portfolio</title>
 </head>
 
 <body>
   <div class="navigation-wrapper">
     <div class="nav-container container">
-      <a href="/">
-        <img src="/assets/img/contactX.svg">
+      <a class="header-title" href="/">
+        <!-- <img src="/assets/img/contactX.svg"> -->
+        My portfolio
       </a>
       <div class="header-content">
         <a></a>
@@ -26,14 +27,15 @@
                 <a href="/">Home</a>
               </li>
               <li>
-                <a href="/">About</a>
+                <a href="https://www.linkedin.com/in/saheel-sapovadia/" target="_blank">About</a>
               </li>
               <li>
-                <a href="/">Resume</a>
+                <a href="https://drive.google.com/file/d/1GKon7ToQwBFiOoQz9qaVJo1lygqhbZc4/view?usp=drive_link"
+                  target="_blank">Resume</a>
               </li>
             </ul>
           </nav>
-          <a class="contact-me" href="/">
+          <a class="contact-me" href="https://www.linkedin.com/in/saheel-sapovadia/" target="_blank">
             <div>
               Contact me
             </div>
@@ -76,12 +78,13 @@
           I'm Saheel Sapovadia a full-stack developer from Bangalore
         </h1>
         <p class="text-body mb-5">
-          A tech enthusiast. I’m currently Software Developer Intern @Motorola
+          A tech enthusiast. I’m currently Software Developer @Motorola
           Solutions 🚀.
         </p>
         <div class="btn-container">
-          <button class="intro-btn contact-btn">Contact me</button>
-          <button class="intro-btn send-btn">Send me a message</button>
+          <a href="https://www.linkedin.com/in/saheel-sapovadia/" target="_blank">
+            <button class="intro-btn contact-btn">Contact me</button>
+          </a>
         </div>
       </div>
       <div class="home-intro-photo">
@@ -106,7 +109,7 @@
       <div class="services-heading">
         <div class="subtitle-text justify-content-center">
           <img src="/assets/img/star.svg" />
-          <p class="">Services</p>
+          <p class="">Expertise</p>
           <img src="/assets/img/star.svg" />
         </div>
         <h1 class="services-title">My broad set of services</h1>
@@ -122,10 +125,9 @@
               <img src="/assets/img/web-design.svg" />
             </div>
             <div class="service-desc-wrapper">
-              <h3>Web design</h3>
+              <h3>Novel web app</h3>
               <p>
-                Lacus adipiscing lectus convallis purus aliquet cursus magnaol
-                dolori montes augue donec cras.
+                Developed and Deployed (AWS) a website where users can read English versions of Korean & Chinese novels.
               </p>
             </div>
           </div>
@@ -134,10 +136,10 @@
               <img src="/assets/img/ux.svg" />
             </div>
             <div class="service-desc-wrapper">
-              <h3>UX/UI design</h3>
+              <h3>Todo app (PERN stack)</h3>
               <p>
-                Lacus adipiscing lectus convallis purus aliquet cursus magnaol
-                dolori montes augue donec cras.
+                Productivity Todo app in PERN stack with JWT based authentication, drag-n-drop UI interface and
+                PostgreSQL as the database.
               </p>
             </div>
           </div>
@@ -146,10 +148,10 @@
               <img src="/assets/img/product.svg" />
             </div>
             <div class="service-desc-wrapper">
-              <h3>Product design</h3>
+              <h3>Facebook web clone</h3>
               <p>
-                Lacus adipiscing lectus convallis purus aliquet cursus magnaol
-                dolori montes augue donec cras.
+                Styled using tailwind CSS to design a crisp UI in Reactjs
+                Implementing fundamental react concepts.
               </p>
             </div>
           </div>
@@ -158,10 +160,14 @@
               <img src="/assets/img/user-research.svg" />
             </div>
             <div class="service-desc-wrapper">
-              <h3>User research</h3>
+              <h3>Project management app (PEAN)</h3>
               <p>
-                Lacus adipiscing lectus convallis purus aliquet cursus magnaol
-                dolori montes augue donec cras.
+                Under the mentorship of Motorola Solutions Software engineers 🧑‍💻 for 6 months developed a full stack
+                PEAN app
+              </p>
+              <br />
+              <p>
+                Project includes all the fundamental aspects of full stack. Authentication, CRUD REST apis, SQL, etc
               </p>
             </div>
           </div>
@@ -170,15 +176,21 @@
               <img src="/assets/img/motion.svg" />
             </div>
             <div class="service-desc-wrapper">
-              <h3>Motion graphics</h3>
+              <h3>Pomodoro app</h3>
               <p>
-                Lacus adipiscing lectus convallis purus aliquet cursus magnaol
-                dolori montes augue donec cras.
+                Binding with functions written in native Android Java rather than using 3rd party rn libraries for more
+                efficiency
+              </p>
+              <br />
+              <p>
+                Added react navigation, animations and PanResponder
               </p>
             </div>
           </div>
           <div class="service-wrapper bottom-right">
-            <button class="intro-btn contact-btn">Get in touch</button>
+            <a href="https://www.linkedin.com/in/saheel-sapovadia/" target="_blank">
+              <button class="intro-btn contact-btn">Get in touch</button>
+            </a>
           </div>
         </div>
       </div>
@@ -203,26 +215,33 @@
             </div>
             <h1 class="services-title">Who's behind all this great work?</h1>
             <p class="services-desc mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit aliquam et
-              erat donec pulvinar enim potenti etiam at quis volutpat aliquet
+              I'm a Software developer. I've been building stuff on the web since when I was in
+              10th standard, I've made countless side projects.
+
+              I also love doing open source development, I actively maintain projects for annual Hacktoberfest.
+              <br />
+              At my current job I'm part of the mission critical product CCAdmin and Unified Identity used across the
+              Motorola Solutions portfolio. My contributions are across the whole stack -<strong>
+                frontend, backend and devops.
+              </strong>
+              <br />
+              Since the product mission critical I also have exposure to observability and monitoring practices using
+              Elastic and Prometheus.
+              <br />
+              We also have pagerduty for incident management.
             </p>
+
           </div>
-          <div class="am-text">
+          <div class=" am-text">
             <div class="text-div mb-4">
               <div class="d-flex flex-column">
-                <li>Who's behind all this great work?</li>
-                <p>Lacus adipiscing lectus convallis purus aliquet cursus magnaol
-                  dolori montes augue donec cras.</p>
+                <li>My expertise -</li>
+                <p>Nodejs, Springboot, Angular, React, PostgreSQL, Microsoft Azure</p>
               </div>
             </div>
-            <div class="text-div">
-              <div class="d-flex flex-column">
-                <li>Who's behind all this great work?</li>
-                <p>Lacus adipiscing lectus convallis purus aliquet cursus magnaol
-                  dolori montes augue donec cras.</p>
-              </div>
-            </div>
-            <button class="intro-btn send-btn mt-4">About me</button>
+            <a href="https://www.linkedin.com/in/saheel-sapovadia/" target="_blank">
+              <button class="intro-btn send-btn mt-4">About me</button>
+            </a>
           </div>
         </div>
       </div>
@@ -242,13 +261,12 @@
             </div>
             <h1 class="services-title">Take a look at my resume</h1>
             <p class="services-desc mb-5">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit aliquam
-              et erat donec pulvinar enim potenti etiam at quis volutpat
-              aliquet
-            </p>
+
           </div>
           <div class="exp-resume-btn">
-            <a class="intro-btn contact-btn resume" href="./assets/documents/RESUME.pdf" target="_blank">See full
+            <a class="intro-btn contact-btn resume"
+              href="https://drive.google.com/file/d/1GKon7ToQwBFiOoQz9qaVJo1lygqhbZc4/view?usp=drive_link"
+              target="_blank">See full
               resume</a>
           </div>
         </div>
@@ -264,7 +282,12 @@
           <div class="experience-card-right-content top ">
             <div class=" text">
               <h3>Software Engineer</h3>
-              <p>Vel facilisis volutpat est velit egestas dui. Urna nec cidu praesent semper feugiat. Vulputate</p>
+              <p>Currently solving for the Identity part of the cool walkie-talkies you see with the police and other
+                public safety personels. Even the 911 services are dependent on us.</p>
+              <br />
+              <p>
+                Work on the whole stack - Angular, Springboot, PostgreSQL, Microsoft Azure devops, Elastic & Prometheus.
+              </p>
             </div>
             <div class=" img">
               <img src="assets/img/msi-logo.svg" />
@@ -281,14 +304,24 @@
           <div class="experience-card-right-content middle">
             <div class=" text">
               <h3>Software Engineering Intern</h3>
-              <p>Vel facilisis volutpat est velit egestas dui. Urna nec cidu praesent semper feugiat. Vulputate</p>
+              <li>As a key member of the ML driven thresholds calculation, KPI monitoring, and alerting product team, I
+                played a pivotal
+                role in the complete overhaul of both the frontend and backend systems</li>
+              <li>Carried out migration of the database from CouchDB to PostgreSQL, resulting in a remarkable 90%
+                reduction in database
+                transaction times</li>
+              <li>Assumed ownership of the real-time notification module, through the implementation of Socket.IO for
+                efficient and
+                responsive communication.
+                Led it to production environment.
+              </li>
             </div>
             <div class=" img">
               <img src="assets/img/msi-logo.svg" />
             </div>
           </div>
         </div>
-        <div class="d-flex justify-content-space-between align-items-center position-relative">
+        <!-- <div class="d-flex justify-content-space-between align-items-center position-relative">
           <div class="experience-card-left-content-wrapper">
             <div class="experience-card-shadow"></div>
             <div class="experience-card-time d-flex justify-content-center">
@@ -304,7 +337,7 @@
               <img src="assets/img/fb.svg" />
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="exp-img">
           <img src="/assets/img/moon.svg" />
         </div>

@@ -415,7 +415,8 @@ button {
   font-size: clamp(0.5rem, 0.5rem + 2vw, 2rem);
   font-family: ClashDisplay-Semibold;
 }
-.exp-data .experience-card-right-content .text p {
+.exp-data .experience-card-right-content .text p,
+.exp-data .experience-card-right-content .text li {
   font-size: clamp(0.5rem, 0.5rem + 2vw, 1.2rem);
   font-family: ClashDisplay-Medium;
 }
@@ -571,6 +572,11 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+.navigation-wrapper .nav-container .header-title {
+  font-size: 2rem;
+  color: white;
+  text-decoration: none;
 }
 .navigation-wrapper .nav-container .header-content div {
   justify-content: center;

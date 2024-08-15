@@ -444,7 +444,8 @@ button {
         font-size: clamp(0.5rem, 0.5rem + 2vw, 2rem);
         font-family: ClashDisplay-Semibold;
       }
-      p {
+      p,
+      li {
         font-size: clamp(0.5rem, 0.5rem + 2vw, 1.2rem);
         font-family: ClashDisplay-Medium;
       }
@@ -648,6 +649,12 @@ button {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+
+    .header-title {
+      font-size: 2rem;
+      color: white;
+      text-decoration: none;
+    }
 
     .header-content {
       div {
